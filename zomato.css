@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 10px;
+    font-size: 26px;
+}
+
+nav h1 {
+    font-size: 40px;
+    color: rgba(250, 10, 10, 0.801);
+    border-bottom: 5px solid rgba(250, 10, 10, 0.801);
+    border-radius: 40px;
+    font-family: 'Courgette', cursive;
+}
+
+ul {
+    display: flex;
+}
+
+.about {
+    color: white;
+}
+
+ul li {
+    list-style: none;
+    margin-inline: 30px;
+}
+
+.btn button {
+    width: 100px;
+    height: 36px;
+    border: 3px solid rgba(250, 10, 10, 0.801);
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.main-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+
+.main-div .head {
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.head button {
+    width: 180px;
+    height: 45px;
+    background-color: rgba(250, 10, 10, 0.801);
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+}
+
+.head button:hover {
+    background-color: black;
+    border: 3px solid rgba(250, 10, 10, 0.801);
+    cursor: pointer;
+}
+
+.img img {
+    margin-right: 30px;
+    width: 670px;
+}
+
+/* Style for the location dropdown */
+.head select {
+    width: 180px; /* Adjust the width as needed */
+    height: 45px;
+    background-color: red; /* Set the background color to red */
+    color: white; /* Set the text color to white */
+    font-size: 18px;
+    border: 3px solid rgba(250, 10, 10, 0.801);
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* Style for the options inside the location dropdown */
+.head select option {
+    background-color: red; /* Set the background color of the options to red */
+    color: white; /* Set the text color of the options to white */
+}
